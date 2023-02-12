@@ -49,7 +49,7 @@ public class ArrayMethods {
      * @param elements the length of the array.
      * @return an array whose elements have been entered by the user.
      */
-    public static int[] loadKBArray(int elements) {
+    public static int[] fill(int elements) {
         int array[] = new int[elements];
 
         for (int element = 0; element < array.length; element++) {
