@@ -2,7 +2,7 @@
 <p>I learned to program in Python and when I switched to Java everything seemed very difficult. " What is that System.out.print("")? " I wondered. Now that I am 
 proficient in Java I find it a very powerful tool.</p>
 <div align="center">
-  <img src="https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png" width="500px" />
+  <img src="https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png" width="400px" />
 </div>
 This repository is divided principaly in two parts:
 <h2>📂 FUNCTIONS</h2>
