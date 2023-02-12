@@ -4,7 +4,7 @@ proficient in Java I find it a very powerful tool.</p>
 <div align="center">
   <img src="https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png" width="400px" />
 </div>
-This repository is divided principaly in two parts:
+<p>This repository is divided principaly in two parts:</p>
 <h2>📂 FUNCTIONS</h2>
 <p>This folder contains many functions to perform numerical operations, with arrays, matrices, etc.</p>
 <h2>📂 EXERCISES</h2>
