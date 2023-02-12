@@ -165,7 +165,7 @@ public class ArrayMethods {
      * @return an array whose elements are cubes from others of the introduced
      * array.
      */
-    public static int[] fillCubos(int[] array) {
+    public static int[] fillCubes(int[] array) {
         int cubes = 0;
 
         for (int element : array) {
