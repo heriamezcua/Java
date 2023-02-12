@@ -67,7 +67,7 @@ public class ArrayMethods {
      * @return an array whose elements and positions have been entered by the
      * user.
      */
-    public static int[] cambiarElementoArray(int elements) {
+    public static int[] fillPosition(int elements) {
         int[] array = new int[elements];
         //the position you want to fill / if you want to stop
         int position = 0, stop;
