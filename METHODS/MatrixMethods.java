@@ -13,15 +13,14 @@ package methods;
  */
 public class MatrixMethods {
 
-    public static void mostrarMatrizPantalla(int[][] tuMatriz) {
-        int[][] matriz = tuMatriz;
+    public static void display(int[][] matrix) {
 
-        for (int fila = 0; fila < matriz.length; fila++) {
-            for (int columna = 0; columna < matriz[fila].length; columna++) {
-                if (columna + 1 == matriz[fila].length) {
-                    System.out.print(matriz[fila][columna] + "\n");
+        for (int row = 0; row < matrix.length; row++) {
+            for (int column = 0; column < matrix[row].length; column++) {
+                if (column + 1 == matrix[row].length) {
+                    System.out.print(matrix[row][column] + "\n");
                 } else {
-                    System.out.print(matriz[fila][columna] + " ");
+                    System.out.print(matrix[row][column] + " ");
                 }
             }
         }
