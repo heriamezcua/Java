@@ -276,5 +276,35 @@ public class ArrayMethods {
 
         return trend;
     }
+    
+    /**
+     * Sorts the entered array in ascending order.
+     *
+     * @param array the array that we want to sort
+     * @return the entered array sorted ascending
+     */
+    public static int[] order(int[] array) {
+
+        //for each element of the array
+        for (int elem = 0; elem < array.length; elem++) {
+            //I get the value of the following element
+            int nextElem = elem + 1;
+
+            //as long as the next element is less than the length of the array
+            while (nextElem < array.length) {
+                //if the next element is less than the current element
+                if (array[nextElem] < array[elem]) {
+                    //exchange positions
+                    int container = array[elem];
+                    array[elem] = array[nextElem];
+                    array[nextElem] = container;
+                }
+
+                nextElem++;
+            }
+        }
+
+        return array;
+    }
 
 }
