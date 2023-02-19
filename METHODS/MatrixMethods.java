@@ -11,7 +11,7 @@ package methods;
  * @version 1.0
  * @since JDK 19
  */
-public class Matrix {
+public class MatrixMethods {
 
     
     /**
