@@ -5,7 +5,7 @@ proficient in Java I find it a very powerful tool.</p>
   <img src="https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png" width="400px" />
 </div>
 <p><br/>This repository is divided principaly in two parts:</p>
-<h2>📂 FUNCTIONS</h2>
-<p>This folder contains many functions to perform numerical operations, with arrays, matrices, etc.</p>
+<h2>📂 METHODS</h2>
+<p>This folder contains classes with many methods to perform numerical operations, with arrays, matrices, etc.</p>
 <h2>📂 EXERCISES</h2>
 <p>In this folder there are exercises that I have been doing since I started, so here you can see my evolution from not knowing to knowing something more every day.</p>
