@@ -13,6 +13,12 @@ package methods;
  */
 public class MatrixMethods {
 
+    
+    /**
+     * Display the entered matrix.
+     *
+     * @param tuMatriz
+     */
     public static void display(int[][] matrix) {
 
         for (int row = 0; row < matrix.length; row++) {
@@ -269,4 +275,52 @@ public class MatrixMethods {
         return secDiagonal;
 
     }
+    
+    /**
+     * shorts the matrix in ascending order.
+     *
+     * @param matriz the matrix we want to short.
+     */
+    public static void bubbleShort(int[][] matrix) {
+
+        //the number of times that the matrix must be ordered to be sure that it is ordered
+        int iterations = matrix.length * matrix[0].length;
+
+        //as long as the number of times to be sorted is not zero
+        do {
+            //For each element of the matrix
+            for (int row = 0; row < matrix.length; row++) {
+                for (int col = 0; col < matrix.length; col++) {
+                    //I get the following element
+                    int nextCol = col + 1;
+
+                    //if it is the last element of the row
+                    if (nextCol == matrix[row].length && row != matrix.length - 1) {
+                        //I will compare with the first of the following
+                        nextCol = 0;
+                        //If the next one is higher, I will exchange positions
+                        if (matrix[row][col] > matrix[row + 1][nextCol]) {
+                            int aux = matrix[row][col];
+                            matrix[row][col] = matrix[row + 1][nextCol];
+                            matrix[row + 1][nextCol] = aux;
+                        }
+
+                    } else if (nextCol != matrix.length) {
+                        //I compare with the following and if it is greater, I exchange positions
+                        if (matrix[row][col] > matrix[row][nextCol]) {
+                            int aux = matrix[row][col];
+                            matrix[row][col] = matrix[row][nextCol];
+                            matrix[row][nextCol] = aux;
+                        }
+                    }
+
+                }
+
+            }
+
+            iterations--;
+        } while (iterations != 0);
+
+    }
+    
 }
