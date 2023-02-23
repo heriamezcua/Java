@@ -281,7 +281,7 @@ public class MatrixMethods {
      *
      * @param matriz the matrix we want to short.
      */
-    public static void bubbleShort(int[][] matrix) {
+    public static void bubbleSort(int[][] matrix) {
 
         //the number of times that the matrix must be ordered to be sure that it is ordered
         int iterations = matrix.length * matrix[0].length;
