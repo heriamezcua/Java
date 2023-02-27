@@ -10,6 +10,9 @@ package juegotresenraya;
  */
 public class Tablero {
 
+    public static final String RESALTAR_ROJO = "\u001B[31m";
+    public static final String RESETEAR_COLOR = "\u001B[0m";
+    
     /**
      * Method that print in screen the current state of the game in a 'fancy'
      * way.
@@ -29,9 +32,6 @@ public class Tablero {
         System.out.print((" ---").repeat(partida.getTablero().length) + "\n");
 
     }
-
-    public static final String RESALTAR_ROJO = "\u001B[31m";
-    public static final String RESETEAR_COLOR = "\u001B[0m";
 
     /**
      * Method that print in screen the current state of the game in a 'fancy'
