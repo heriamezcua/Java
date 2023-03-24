@@ -9,3 +9,5 @@ proficient in Java I find it a very powerful tool.</p>
 <p>This folder contains classes with many methods to perform numerical operations, with arrays, matrices, etc.</p>
 <h2>📂 EXERCISES</h2>
 <p>In this folder there are exercises that I have been doing since I started, so here you can see my evolution from not knowing to knowing something more every day.</p>
+<h2>📂 EXAMS</h2>
+<p>In this folder are the exams that I have been doing during the first course of DAW.</p>
