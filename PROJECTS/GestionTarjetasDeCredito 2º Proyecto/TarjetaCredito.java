@@ -732,28 +732,3 @@ public class TarjetaCredito {
     }
 
 }
-
-/*MAIN
-//        String numeroTarjeta = "1234567890123452";
-//        String numero = "123456789012345";
-//        String numeroTarjeta2 = "79927398721";
-//        TarjetaCredito t1 = new TarjetaCredito("Heriberto Amezcua", "z1234567r", "1234", 1234, "1234567890123452");
-//        TarjetaCredito t2 = new TarjetaCredito(t1);
-//        Movimiento m = new Movimiento(1000, "Paga extra");
-//        System.out.println(m);
-//
-//        t1.pagar(1000, "Armas para Iran");
-//        t1.pagar(1000, "Armas para Irak");
-//        t1.pagar(1000, "Armas para Oman");
-//        t1.pagar(1000, "Armas para Armenia");
-//        t1.pagar(1000, "Armas para Espana");
-//        t1.pagar(1000, "Armas para Alemania");
-//        t1.pagar(1000, "Armas para Francai");
-//        t1.pagar(1000, "Armas para ROMA");
-//        System.out.println(TarjetaCredito.obtenerDigitoControl(numero));
-//
-//        System.out.println(t1.toString());
-//
-//        System.out.println(t1);
-//        System.out.println(t2);
- */
