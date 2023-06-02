@@ -13,20 +13,20 @@ package methods;
  */
 public class MatrixMethods {
 
-    
     /**
      * Display the entered matrix.
      *
      * @param tuMatriz
      */
-    public static void display(int[][] matrix) {
+    public static void display(int[][] tuMatriz) {
+        int[][] matriz = tuMatriz;
 
-        for (int row = 0; row < matrix.length; row++) {
-            for (int column = 0; column < matrix[row].length; column++) {
-                if (column + 1 == matrix[row].length) {
-                    System.out.print(matrix[row][column] + "\n");
+        for (int fila = 0; fila < matriz.length; fila++) {
+            for (int columna = 0; columna < matriz[fila].length; columna++) {
+                if (columna + 1 == matriz[fila].length) {
+                    System.out.print(matriz[fila][columna] + "\n");
                 } else {
-                    System.out.print(matrix[row][column] + " ");
+                    System.out.print(matriz[fila][columna] + " ");
                 }
             }
         }
@@ -140,7 +140,7 @@ public class MatrixMethods {
      */
     public static int[] extractColumn(int[][] matrix, int columnIndex) {
         //only works for square matrices
-        int[] extractedColumn = new int[matrix[columnIndex].length];
+        int[] extractedColumn = new int[matrix.length];
 
         for (int element = 0; element < matrix.length; element++) {
             extractedColumn[element] = matrix[element][columnIndex];
@@ -275,13 +275,13 @@ public class MatrixMethods {
         return secDiagonal;
 
     }
-    
+
     /**
      * shorts the matrix in ascending order.
      *
-     * @param matriz the matrix we want to short.
+     * @param matrix the matrix we want to short.
      */
-    public static void bubbleSort(int[][] matrix) {
+    public static void bubbleShort(int[][] matrix) {
 
         //the number of times that the matrix must be ordered to be sure that it is ordered
         int iterations = matrix.length * matrix[0].length;
@@ -322,5 +322,4 @@ public class MatrixMethods {
         } while (iterations != 0);
 
     }
-    
 }
