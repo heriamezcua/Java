@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="EXAMS/Examen Diciembre/cribaeratostenes"/>
+	<classpathentry kind="src" path="EXAMS/Examen Diciembre/desplazar"/>
+	<classpathentry kind="src" path="EXAMS/Examen Diciembre/tiradadados"/>
+	<classpathentry kind="src" path="EXAMS/Examen Febrero"/>
+	<classpathentry kind="src" path="EXAMS/Examen Marzo/desarrollozaidin"/>
+	<classpathentry kind="src" path="EXERCISES/AprendiendoPOOAvanzada"/>
+	<classpathentry kind="src" path="EXERCISES/MiJTable/src"/>
+	<classpathentry kind="src" path="EXERCISES/OOPTraining"/>
+	<classpathentry kind="src" path="EXERCISES/OtraJTable/src"/>
+	<classpathentry kind="src" path="EXERCISES/PruebaFile"/>
+	<classpathentry kind="src" path="EXERCISES/PruebaHerencia"/>
+	<classpathentry kind="src" path="EXERCISES/pruebaJTable"/>
+	<classpathentry kind="src" path="EXERCISES/pruebasJUNIT/Source Packages"/>
+	<classpathentry kind="src" path="EXERCISES/pruebasJUNIT/Test Packages"/>
+	<classpathentry kind="src" path="EXERCISES/RelacionArrays"/>
+	<classpathentry kind="src" path="EXERCISES/RelacionEjerciciosSencillos"/>
+	<classpathentry kind="src" path="EXERCISES/RelacionMatrices"/>
+	<classpathentry kind="src" path="EXERCISES/RelacionObjetos"/>
+	<classpathentry excluding="src/" kind="src" path="EXERCISES/RelacionSwing"/>
+	<classpathentry kind="src" path="EXERCISES/RelacionSwing/src"/>
+	<classpathentry kind="src" path="EXERCISES/TrianguloSierpinski"/>
+	<classpathentry kind="src" path="PROJECTS/Juego3EnRaya practica"/>
+	<classpathentry kind="src" path="PROJECTS/JuegoPente 1er proyecto"/>
+	<classpathentry kind="src" path="PROJECTS/TicTacToe/src"/>
+	<classpathentry kind="src" path="PROJECTS/Vergeflix 3er Proyecto/src"/>
+	<classpathentry kind="lib" path="PROJECTS/TicTacToe/out/artifacts/TicTacToe_jar/TicTacToe.jar"/>
+	<classpathentry kind="lib" path="PROJECTS/Vergeflix 3er Proyecto/dist/Vergeflix.jar"/>
+	<classpathentry kind="src" path="learning"/>
+	<classpathentry kind="output" path="EXERCISES/MiJTable/build/classes"/>
+</classpath>
