@@ -1,11 +1,11 @@
-package basic.relacionejerciciossencillos1;
+package basic.simpleexercises;
 
 import basic.utilis.ReadKBData;
 
 /*
  * Program that prints the lowest and highest entered integer
  */
-public class Ejercicio07 {
+public class Ex07 {
 
 	public static void main(String[] args) {
 		

@@ -1,4 +1,4 @@
-package basic.relacionejerciciossencillos1;
+package basic.simpleexercises;
 
 import basic.utilis.ReadKBData;
 
@@ -6,7 +6,7 @@ import basic.utilis.ReadKBData;
 /*
  * Program that prints the sum of numbers from 1 to X
  */
-public class Ejercicio04 {
+public class Ex04 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

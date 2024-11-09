@@ -1,11 +1,11 @@
-package basic.relacionejerciciossencillos1;
+package basic.simpleexercises;
 
 import basic.utilis.ReadKBData;
 
 /*
  * Program that prints the sum of the odds and even numbers
  */
-public class Ejercicio06 {
+public class Ex06 {
 
 	public static void main(String[] args) {
 		

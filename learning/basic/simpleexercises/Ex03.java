@@ -1,10 +1,10 @@
-package basic.relacionejerciciossencillos1;
+package basic.simpleexercises;
 
 
 /*
  * from 0 to 100 add 2 in every step
  */
-public class Ejercicio03 {
+public class Ex03 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

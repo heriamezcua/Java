@@ -1,4 +1,4 @@
-package basic.relacionejerciciossencillos1;
+package basic.simpleexercises;
 
 
 import basic.utilis.ReadKBData;
@@ -6,7 +6,7 @@ import basic.utilis.ReadKBData;
 /*
  * Program that calculates if a year is leap
  */
-public class Ejercicio08 {
+public class Ex08 {
 
 	public static void main(String[] args) {
 

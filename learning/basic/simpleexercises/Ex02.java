@@ -1,10 +1,10 @@
-package basic.relacionejerciciossencillos1;
+package basic.simpleexercises;
 
 
 /*
  * 100 numbers from 100 to 0
  */
-public class Ejercicio02 {
+public class Ex02 {
 
 	public static void main(String[] args) {
 

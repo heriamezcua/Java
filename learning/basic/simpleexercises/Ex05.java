@@ -1,11 +1,11 @@
-package basic.relacionejerciciossencillos1;
+package basic.simpleexercises;
 
 import basic.utilis.ReadKBData;
 
 /*
  * Program that prints the first x multiples of 3 via console
  */
-public class Ejercicio05 {
+public class Ex05 {
 
 	public static void main(String[] args) {
 

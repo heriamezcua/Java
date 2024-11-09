@@ -1,6 +1,6 @@
-package basic.relacionejerciciossencillos1;
+package basic.simpleexercises;
 
-public class Ejercicio09 {
+public class Ex09 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
