@@ -1,4 +1,4 @@
-package basic.simpleexercises;
+package basic.simpleexercises1;
 
 
 /*

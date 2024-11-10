@@ -28,6 +28,6 @@
 	<classpathentry kind="src" path="PROJECTS/Vergeflix 3er Proyecto/src"/>
 	<classpathentry kind="lib" path="PROJECTS/TicTacToe/out/artifacts/TicTacToe_jar/TicTacToe.jar"/>
 	<classpathentry kind="lib" path="PROJECTS/Vergeflix 3er Proyecto/dist/Vergeflix.jar"/>
-	<classpathentry kind="src" path="learning"/>
+	<classpathentry kind="src" path="LEARNING"/>
 	<classpathentry kind="output" path="EXERCISES/MiJTable/build/classes"/>
 </classpath>
