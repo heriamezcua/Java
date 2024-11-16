@@ -3,8 +3,8 @@ package basic.regexexercises;
 import java.util.regex.Pattern;
 
 /**
- * Write a Java program to check whether a string contains only a certain set of
- * characters (in this case a-z, A-Z and 0-9).
+ * Exercises from w3resource. 1. Write a Java program to check whether a string
+ * contains only a certain set of characters (in this case a-z, A-Z and 0-9).
  * 
  * https://www.w3resource.com/java-exercises/re/index.php
  */
