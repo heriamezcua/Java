@@ -4,7 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * MyExcersise 3. Find numbers that are NOT followed by the word "apple"
+ * MyExcersise 4. Find numbers that are NOT followed by the word "apple"
  */
 public class Ex13 {
 
