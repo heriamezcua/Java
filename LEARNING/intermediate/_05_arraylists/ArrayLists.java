@@ -1,4 +1,4 @@
-package intermediate._04_arraylists;
+package intermediate._05_arraylists;
 
 import java.util.ArrayList;
 
