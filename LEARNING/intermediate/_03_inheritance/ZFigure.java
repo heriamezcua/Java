@@ -1,4 +1,4 @@
-package intermediate._04_inheritance;
+package intermediate._03_inheritance;
 
 public abstract class ZFigure {
 	private String color;

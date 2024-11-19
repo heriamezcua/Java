@@ -1,4 +1,4 @@
-package intermediate._04_inheritance;
+package intermediate._03_inheritance;
 
 import java.util.Arrays;
 import java.util.Objects;
