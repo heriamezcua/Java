@@ -449,7 +449,6 @@ public class JuegoPente {
             }
         }
         System.out.print((" ---").repeat(tablero.length) + "\n");
-
     }
 
     public static final String RESALTAR_ROJO = "\u001B[31m";
