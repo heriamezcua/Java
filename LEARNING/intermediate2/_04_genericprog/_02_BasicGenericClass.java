@@ -1,18 +1,18 @@
 package intermediate2._04_genericprog;
 
 // We need to specify <T> to use type variables
-public class BasicGenericClass<T> {
+public class _02_BasicGenericClass<T> {
 
 	// Type variables T
 	private T first;
 	private T second;
 
-	public BasicGenericClass() {
+	public _02_BasicGenericClass() {
 		first = null;
 		second = null;
 	}
 
-	public BasicGenericClass(T first, T second) {
+	public _02_BasicGenericClass(T first, T second) {
 		this.first = first;
 		this.second = second;
 	}
@@ -38,12 +38,12 @@ public class BasicGenericClass<T> {
 		// El código puede manejar cualquier tipo de dato
 
 		// String
-		BasicGenericClass<String> pair = new BasicGenericClass<>("Hello", "World");
+		_02_BasicGenericClass<String> pair = new _02_BasicGenericClass<>("Hello", "World");
 		System.out.println(pair.getFirst()); // Output: Hello
 		System.out.println(pair.getSecond()); // Output: World
 
 		// Integer
-		BasicGenericClass<Integer> pairInteger = new BasicGenericClass<>(33, 256);
+		_02_BasicGenericClass<Integer> pairInteger = new _02_BasicGenericClass<>(33, 256);
 		System.out.println(pairInteger.getFirst()); // Output: 33
 		System.out.println(pairInteger.getSecond()); // Output: 256
 	}

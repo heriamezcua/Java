@@ -2,7 +2,7 @@ package intermediate2._04_genericprog;
 
 import java.util.ArrayList;
 
-public class GenericProg {
+public class _01_GenericProg {
 
 	public static void main(String[] args) {
 		//

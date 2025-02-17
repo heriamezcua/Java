@@ -1,11 +1,11 @@
 package intermediate2._04_genericprog;
 
-public class MultipleTypesGenericClass<T, U> {
+public class _03_MultipleTypesGenericClass<T, U> {
 
 	private T first;
 	private U second;
 
-	public MultipleTypesGenericClass(T first, U second) {
+	public _03_MultipleTypesGenericClass(T first, U second) {
 		this.first = first;
 		this.second = second;
 	}
@@ -20,7 +20,7 @@ public class MultipleTypesGenericClass<T, U> {
 	
 	public static void main(String[] args) {
 		// We have a class with multiple Generic Types
-		MultipleTypesGenericClass<String, Integer> pair = new MultipleTypesGenericClass<>("Age", 30);
+		_03_MultipleTypesGenericClass<String, Integer> pair = new _03_MultipleTypesGenericClass<>("Age", 30);
 		System.out.println(pair.getFirst()); // Output: Age
 		System.out.println(pair.getSecond()); // Output: 30
 	}
