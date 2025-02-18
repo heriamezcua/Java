@@ -35,7 +35,7 @@ public class _02_BasicGenericClass<T> {
 
 	// Main method for class testing
 	public static void main(String[] args) {
-		// El código puede manejar cualquier tipo de dato
+		// The code can handle any type of data
 
 		// String
 		_02_BasicGenericClass<String> pair = new _02_BasicGenericClass<>("Hello", "World");
