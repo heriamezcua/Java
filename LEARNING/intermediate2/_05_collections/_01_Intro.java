@@ -3,7 +3,7 @@ package intermediate2._05_collections;
 import java.util.Iterator;
 import java.util.function.Consumer;
 
-public class _01_Collections {
+public class _01_Intro {
 
 	public static void main(String[] args) {
 
