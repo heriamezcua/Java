@@ -1,10 +1,10 @@
-package intermediate2._05_collections;
+package intermediate2._06_collectioninterface;
 
 import java.util.Deque;
 import java.util.Queue;
 import java.util.concurrent.*;
 
-public class _10_QueuesAndDeques {
+public class _06_QueuesAndDeques {
 	public static void main(String[] args) {
 		// Queue example (FIFO)
 		Queue<Integer> queue = new ConcurrentLinkedQueue<>();

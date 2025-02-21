@@ -1,8 +1,8 @@
-package intermediate2._05_collections;
+package intermediate2._06_collectioninterface;
 
 import java.util.ArrayList;
 
-public class _07_ArrayList {
+public class _03_ArrayList {
 	public static void main(String[] args) {
 		// Creating an ArrayList of Strings
 		ArrayList<String> names = new ArrayList<>();

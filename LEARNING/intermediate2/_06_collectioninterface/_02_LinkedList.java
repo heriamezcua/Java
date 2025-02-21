@@ -1,4 +1,4 @@
-package intermediate2._05_collections;
+package intermediate2._06_collectioninterface;
 
 import java.util.ConcurrentModificationException;
 import java.util.Iterator;
@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;
 
-public class _06_LinkedList {
+public class _02_LinkedList {
 	public static void main(String[] args) {
 		// ****
 		// * LINKEDLIST

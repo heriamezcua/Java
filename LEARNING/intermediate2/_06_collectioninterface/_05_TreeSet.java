@@ -1,9 +1,9 @@
-package intermediate2._05_collections;
+package intermediate2._06_collectioninterface;
 
 import java.util.Comparator;
 import java.util.TreeSet;
 
-public class _09_TreeSet {
+public class _05_TreeSet {
 
 	// ***
 	// *** If you don't need the elements to be sorted, it's better to use a HashSet

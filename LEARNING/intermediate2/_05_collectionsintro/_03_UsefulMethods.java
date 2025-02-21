@@ -1,4 +1,4 @@
-package intermediate2._05_collections;
+package intermediate2._05_collectionsintro;
 
 public class _03_UsefulMethods {
 

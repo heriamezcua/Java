@@ -1,4 +1,4 @@
-package intermediate2._05_collections;
+package intermediate2._06_collectioninterface;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
 
-public class _08_HashSet {
+public class _04_HashSet {
 	public static void main(String[] args) {
 
 		// *** CALC THE POSITION OF AN OBJECT IN THE HASH TABLE

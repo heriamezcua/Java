@@ -1,8 +1,8 @@
-package intermediate2._05_collections;
+package intermediate2._06_collectioninterface;
 
 import java.util.PriorityQueue;
 
-public class _11_PriorityQueues {
+public class _07_PriorityQueues {
 
 	static class Task implements Comparable<Task> {
 		private String name;

@@ -1,4 +1,4 @@
-package intermediate2._05_collections;
+package intermediate2._06_collectioninterface;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -15,7 +15,7 @@ import java.util.SortedSet;
 import java.util.TreeMap;
 import java.util.TreeSet;
 
-public class _05_JavaCollections {
+public class _01_Collection {
 
 	// ****
 	// * LIST INTERFACE

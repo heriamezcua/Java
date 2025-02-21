@@ -1,4 +1,4 @@
-package intermediate2._05_collections;
+package intermediate2._05_collectionsintro;
 
 import java.util.Iterator;
 import java.util.function.Consumer;
