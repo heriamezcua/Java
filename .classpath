@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="src" path="EXAMS"/>
 	<classpathentry kind="src" path="PROJECTS"/>
 	<classpathentry kind="src" path="LEGACY"/>
+	<classpathentry kind="src" path="METHODS"/>
 	<classpathentry kind="lib" path="PROJECTS/TicTacToe/out/artifacts/TicTacToe_jar/TicTacToe.jar"/>
 	<classpathentry kind="lib" path="PROJECTS/Vergeflix 3er Proyecto/dist/Vergeflix.jar"/>
 	<classpathentry kind="src" path="LEARNING"/>
-	<classpathentry kind="output" path="EXERCISES/MiJTable/build/classes"/>
+	<classpathentry kind="output" path="bin"/>
 </classpath>
