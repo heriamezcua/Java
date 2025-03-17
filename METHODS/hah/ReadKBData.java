@@ -3,8 +3,6 @@ package hah;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-import pente.utilis.ReadKBData;
-
 /**
  * Class with different methods to facilitate data keyboard entry.
  *

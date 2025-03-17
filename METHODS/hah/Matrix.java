@@ -378,12 +378,12 @@ public class Matrix {
 
 		// storing the sum of each row number
 		for (int[] row : matrix) {
-			sumRows += MyArray.sumAll(row);
+			sumRows += Array.sumAll(row);
 		}
 
 		// storing the sum of each col number
 		for (int col = 0; col < matrix.length; col++) {
-			sumCols += MyArray.sumAll(MyMatrix.extractColumn(matrix, col));
+			sumCols += Array.sumAll(Matrix.extractColumn(matrix, col));
 		}
 		return sumRows + sumCols;
 	}

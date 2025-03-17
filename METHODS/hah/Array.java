@@ -480,7 +480,7 @@ public class Array {
 
 		int[] secondHalf = Arrays.copyOfRange(array, 0, indexToRotate);
 
-		return MyArray.concatenate(firstHalf, secondHalf);
+		return Array.concatenate(firstHalf, secondHalf);
 	}
 
 	/**
